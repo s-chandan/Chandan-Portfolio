@@ -6,28 +6,38 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "portfolio - Creative Developer & Designer",
+  title: "Portfolio - Creative Developer & QA Tester",
   description:
-    "Passionate about creating beautiful, functional, and user-friendly applications. Specializing in React, Next.js, and modern web technologies.",
-  keywords: ["portfolio", "developer", "designer", "react", "nextjs", "web development"],
-  authors: [{ name: "Your Name" }],
-  creator: "Your Name",
+    "I'm Chandan Sharma, a passionate QA Tester and Creative Developer. I specialize in React, Next.js, and modern web technologies, ensuring both design excellence and bug-free functionality.",
+  keywords: [
+    "portfolio",
+    "QA tester",
+    "creative developer",
+    "react",
+    "nextjs",
+    "website testing",
+    "web development",
+    "manual testing"
+  ],
+  authors: [{ name: "Chandan Sharma" }],
+  creator: "Chandan Sharma",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://yourportfolio.com",
-    title: "Portfolio - Creative Developer & Designer",
-    description: "Passionate about creating beautiful, functional, and user-friendly applications.",
-    siteName: "Portfolio",
+    title: "Portfolio - Creative Developer & QA Tester",
+    description: "Creative Developer and QA Tester specializing in React, Next.js, and website quality assurance.",
+    siteName: "Chandan Sharma Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Portfolio - Creative Developer & Designer",
-    description: "Passionate about creating beautiful, functional, and user-friendly applications.",
-    creator: "@yourusername",
+    title: "Portfolio - Creative Developer & QA Tester",
+    description: "Discover Chandan Sharma’s portfolio – blending clean UI with smooth performance and reliable QA.",
+    creator: "@chandantester", // Replace with your actual Twitter handle if available
   },
-    generator: 'v0.dev'
-}
+  generator: 'v0.dev',
+};
+
 
 export default function RootLayout({
   children,
